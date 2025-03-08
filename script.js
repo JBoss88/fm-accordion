@@ -9,7 +9,6 @@ container.addEventListener("click", function (e) {
 
   let hidden = document.querySelector(`.hidden--${num}`);
   hidden.style.display = hidden.style.display === "block" ? "none" : "block";
-  console.log(num);
 
   if (!clicked) return;
   if (clicked.src.includes("icon-minus.svg")) {
